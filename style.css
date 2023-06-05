@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hide {
+    display: none;
+}
+
+.widthInput{
+    width: 100px;
+}
+
+.remove, .update{
+    cursor: pointer;
+}
+
+#header {
+    height: 46px;
+    display: flex;
+    background: #3B788B;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    position: fixed;
+    width: 100%;
+    flex: 1;
+}
+
+center div input {
+    padding: 10px;
+    width: 350px;
+    margin: 5px;
+}
+
+center div button {
+    border: none;
+    padding: 10px;
+    background: #5bd55f;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #dadada;
+}
+
+.socical a i {
+    padding: 0 5px;
+    color: #fff;
+}
+
+#flex {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: row;
+}
+
+#nav {
+    display: flex;
+    width: 20%;
+    height: 120vh;
+    background: #4D666E;
+    padding: 20px 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nav .logo img {
+    width: 200px;
+    margin-top: 46px;
+}
+
+.subnav {
+    padding-top: 50px;
+    justify-content: space-between;
+}
+
+.subnav .boxSubNav {
+    position: relative;
+    width: 230px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.3);
+}
+
+.logout {
+    width: 150px;
+    height: 40x;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.3);
+    margin-top: 100px;
+}
+
+.logout a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.subnav .boxSubNav a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.subnav .boxSubNav a i {
+    font-size: 16px;
+    position: absolute;
+    right: 0;
+    padding-right: 20px;
+}
+
+#content {
+    width: 80%;
+    padding: 20px;
+}
+
+.nhanVien {
+    display: flex;
+    height: 80%;
+    margin-top: 50px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(254, 16, 56);
+    padding-top: 30px;
+    text-align: center;
+}
+
+.childFunction {
+    display: flex;
+    flex-direction: row;
+}
+
+.hdFunction {
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btnFunction {
+    width: 70px;
+    height: 40px;
+    background-color: #79E74E;
+    margin-right: 20px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit, .remove{
+    width: 40px;
+    height: 22px;
+    background-color: #79E74E;
+    margin-bottom: 5px;
+    line-height: 23px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-right: -53px;
+    margin-left: 26px;
+}
+
+
+.btnFunction i {
+    line-height: 40px;
+    font-size: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+}
+
+#content .phongBan {
+    height: 100vh;
+    background-color: #79E74E;
+}
+
+#content .tienLuong {
+    height: 100vh;
+    background-color: #ea4646;
+}
+
+#content .khenThuong {
+    height: 100vh;
+    background-color: #1f087a;
+}
+
+
+.addRow td input {
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}

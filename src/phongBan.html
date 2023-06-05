@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="main">
+      <div id="header">
+        <div class="title">Quản lý sinh viên EAUT</div>
+        <div class="socical">
+          <a href=""><i class="bx bxl-facebook"></i></a>
+          <a href=""><i class="bx bxl-instagram"></i></a>
+          <a href=""><i class="bx bxl-github"></i></a>
+          <a href=""><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+      <div id="flex">
+        <div id="nav">
+          <div class="imgLogo">
+            <a href="#" class="logo"> <img src="../img/logo.png" /></a>
+          </div>
+          <div class="subnav">
+            <div class="boxSubNav">
+              <a class="navNhanVien" href="./index.html"
+                >Thông Tin Sinh Viên <i class="bx bxs-user-circle"></i
+              ></a>
+            </div>
+            <div  style="background: rgb(254, 150, 167);" class="boxSubNav">
+              <a class="navPhongBan" href="./phongBan.html"
+                >Học Phần <i class='bx bxs-graduation' ></i>
+              </a>
+            </div>
+            <div class="boxSubNav">
+              <a class="navLuong" href="./tienLuong.html"
+                >Học Tập <i class='bx bx-book-open'></i>
+              </a>
+            </div>
+            <div class="boxSubNav">
+              <a href="./khenThuong.html" class="navThuong"
+                >kỉ luật <i class="bx bx-shape-triangle"></i
+              ></a>
+            </div>
+          </div>
+          <div class="logout">
+            <a href="./login.html"><i class="bx bx-log-out"></i> Đăng Xuất </a>
+          </div>
+        </div>
+        <div id="content">
+          <div class="nhanVien">
+            <p class="heading">Quản lý học phần</p>
+            <div class="function">
+              <div class="childFunction">
+                <p class="hdFunction">Chức Năng :</p>
+                <div class="btnFunction"><i class="bx bx-plus"></i></div>
+                <div class="btnFunction"><i class="bx bx-edit-alt"></i></div>
+                <div class="btnFunction"><i class="bx bxs-trash"></i></div>
+                <div class="btnFunction"><i class="bx bx-sort-a-z"></i></div>
+              </div>
+            </div>
+            <center>
+              <div>
+                <input type="text" name="MaPhong">
+              </div>
+              <div>
+                <input type="text" name="TenPhong">
+              </div>
+              <div>
+                <input type="text" name="TruongPhong">
+              </div>
+              <div>
+                <input type="text" name="TruongPhong">
+              </div>
+              <div>
+                <button onclick ="handleFormCrPB" id="createPB">Thêm</button>
+              </div>
+            </center>
+            <div class="table">
+              <table id="render-pb">
+                <thead>
+                  <th>Mã Học Phần</th>
+                  <th>Tên Học Phần</th>
+                  <th>Số Tín</th>
+                  <th>Dơn Giá</th>
+                </thead>
+                <tbody>
+
+                </tbody>
+                <!-- <tr>
+                  <th>Mã phòng ban</th>
+                  <th>Tên phòng ban</th>
+                  <th>Số lượng nhân viên</th>
+                </tr>
+                <tr>
+                  <td>MK01</td>
+                  <td>Marketng</td>
+                  <td>10</td>
+                </tr> -->
+              </table>
+            </div>
+          </div>
+          <div class="phongBan hide"></div>
+          <div class="tienLuong hide"></div>
+          <div class="khenThuong hide"></div>
+        </div>
+      </div>
+    </div>
+    <!-- <script src="../main.js"></script> -->
+    <script src="../phongban.js"></script>
+  </body>
+</html>

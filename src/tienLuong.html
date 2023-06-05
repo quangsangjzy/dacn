@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="main">
+      <div id="header">
+        <div class="title">Quản lý sinh viên EAUT</div>
+        <div class="socical">
+          <a href=""><i class="bx bxl-facebook"></i></a>
+          <a href=""><i class="bx bxl-instagram"></i></a>
+          <a href=""><i class="bx bxl-github"></i></a>
+          <a href=""><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+      <div id="flex">
+        <div id="nav">
+          <div class="imgLogo">
+            <a href="#" class="logo"> <img src="../img/logo.png" /></a>
+          </div>
+          <div class="subnav">
+            <div class="boxSubNav">
+              <a class="navNhanVien" href="./index.html"
+                >Thông Tin Sinh Viên <i class="bx bxs-user-circle"></i
+              ></a>
+            </div>
+            <div class="boxSubNav">
+              <a class="navPhongBan" href="./phongBan.html"
+                >Học Phần <i class='bx bxs-graduation' ></i>
+              </a>
+            </div>
+            <div  style="background: rgb(254, 150, 167);" class="boxSubNav">
+              <a class="navLuong" href="./tienLuong.html"
+                >Học Tập <i class='bx bx-book-open'></i>
+              </a>
+            </div>
+            <div class="boxSubNav">
+              <a href="./khenThuong.html" class="navThuong"
+                >kỉ luật <i class="bx bx-shape-triangle"></i
+              ></a>
+            </div>
+          </div>
+          <div class="logout">
+            <a href="./login.html"><i class="bx bx-log-out"></i> Đăng Xuất </a>
+          </div>
+        </div>
+        <div id="content">
+          <div class="nhanVien">
+            <p class="heading">Quản lý học tập</p>
+            <div class="function">
+              <p class="hdFunction">Chức Năng :</p>
+              <div class="childFunction">
+                <div class="btnFunction"><i class="bx bx-plus"></i></div>
+                <div class="btnFunction"><i class="bx bx-edit-alt"></i></div>
+                <div class="btnFunction"><i class="bx bxs-trash"></i></div>
+                <div class="btnFunction"><i class="bx bx-sort-a-z"></i></div>
+              </div>
+            </div>
+            <center>
+              <div>
+                <input type="text" name="MaNV">
+              </div>
+              <div>
+                <input type="text" name="ChucVu">
+              </div>
+              <div>
+                <input type="text" name="NgayCong">
+              </div>
+              <div>
+                <input type="text" name="TroCap">
+              </div>
+              <div>
+                <input type="text" name="LuongCung">
+              </div>
+              <div>
+                <button id="createLg">Thêm</button>
+              </div>
+            </center>
+            <div class="table">
+              <table id="render-lg">
+                <thead>
+                  <th>Mã Sinh Viên</th>
+                  <th>Mã Học Phần</th>
+                  <th>Diểm Chuyên Cần</th>
+                  <th>Diểm Giữa Kì</th>
+                  <th>Điểm Cuối Kì</th>
+                </thead>
+                <tbody>
+
+                </tbody>
+                <!-- <tr>
+                  <th>Mã nhân sự</th>
+                  <th>Họ tên</th>
+                  <th>Ngày sinh</th>
+                  <th>Số điện thoại</th>
+                  <th>Quê quán</th>
+                  <th>Phòng ban</th>
+                </tr>
+                <tr>
+                  <td>NV01</td>
+                  <td>Triệu Quang Sáng</td>
+                  <td>10/10/2002</td>
+                  <td>03728732323</td>
+                  <td>Tuyên Quang</td>
+                  <td>Marketting</td>
+                </tr>
+                <tr>
+                  <td>NV01</td>
+                  <td>Triệu Quang Sáng</td>
+                  <td>10/10/2002</td>
+                  <td>03728732323</td>
+                  <td>Tuyên Quang</td>
+                  <td>Marketting</td>
+                </tr>
+                <tr>
+                  <td>NV01</td>
+                  <td>Triệu Quang Sáng</td>
+                  <td>10/10/2002</td>
+                  <td>03728732323</td>
+                  <td>Tuyên Quang</td>
+                  <td>Marketting</td>
+                </tr> -->
+              </table>
+            </div>
+          </div>
+          <div class="phongBan hide"></div>
+          <div class="tienLuong hide"></div>
+          <div class="khenThuong hide"></div>
+        </div>
+      </div>
+    </div>
+    <script src="../luong.js"></script>
+  </body>
+</html>

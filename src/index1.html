@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Quản lý nhân sự</title>
+  </head>
+  <body>
+    <div id="main">
+      <div id="header">
+        <div class="title">Quản lý sinh viên EAUT</div>
+        <div class="socical">
+          <a href=""><i class="bx bxl-facebook"></i></a>
+          <a href=""><i class="bx bxl-instagram"></i></a>
+          <a href=""><i class="bx bxl-github"></i></a>
+          <a href=""><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+      <div id="flex">
+        <div id="nav">
+          <div class="imgLogo">
+            <a href="#" class="logo"> <img src="../img/logo.png" /></a>
+          </div>
+          <div class="subnav">
+            <div style="background: rgb(254, 150, 167);" class="boxSubNav">
+              <a class="navNhanVien" href="#"
+                >Thông Tin Sinh Viên <i class="bx bxs-user-circle"></i
+              ></a>
+            </div>
+            <div class="boxSubNav">
+              <a class="navPhongBan" href="./phongBan.html"
+                >Học Phần <i class='bx bxs-graduation' ></i>
+              </a>
+            </div>
+            <div class="boxSubNav">
+              <a class="navLuong" href="./tienLuong.html"
+                >Học Tập <i class='bx bx-book-open'></i>
+              </a>
+            </div>
+            <div class="boxSubNav">
+              <a href="./khenThuong.html" class="navThuong"
+                >kỉ luật <i class="bx bx-shape-triangle"></i
+              ></a>
+            </div>
+          </div>
+          <div class="logout">
+            <a href="./login.html"><i class="bx bx-log-out"></i> Đăng Xuất </a>
+          </div>
+        </div>
+        <div id="content">
+          <div class="nhanVien">
+            <p class="heading">Thông Tin Sinh viên</p>
+            <div class="function">
+            <div class="table">
+              <table id="render">
+                <thead>
+                  <th>Mã sinh viên</th>
+                  <th>Họ tên</th>
+                  <th>Giới tính</th>
+                  <th>Lớp</th>
+                  <th>Quê quán</th>
+                  <th>Số điện thoại</th>
+                </thead>
+                <tbody>
+                  
+                </tbody>
+                <!-- 
+                <tr>
+                  <td id="MaNV"></td>
+                  <td id="HoTen"></td>
+                  <td id="DiaChi"></td>
+                  <td id="GioiTinh"></td>
+                  <td id="SDT"></td>
+                </tr> -->
+                <!-- <tr class="addRow">
+                  <td ><input class="MaSV widthInput" type="text" placeholder="Mã sinh viên"></td>
+                  <td><input class="HoTen" type="text" placeholder="Họ tên"></td>
+                  <td><input class="GioiTinh widthInput" type="text" placeholder="Giới tính"></td>
+                  <td><input style="width: 150px;" class="Lop widthInput" type="text" placeholder="Lớp" ></td>
+                  <td><input class="QueQuan " type="text" placeholder="Quê Quán" ></td>
+                  <td><input class="SDT widthInput" type="text" placeholder="SDT"></td>
+                </tr> -->
+              </table>
+            </div>
+          </div>
+          <!-- <div class="phongBan hide"></div>
+          <div class="tienLuong hide"></div>
+          <div class="khenThuong hide"></div> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- <script src="../main.js"></script> -->
+    <script src="../create.js"></script>
+    <script src="../main.js"></script>
+    
+
+    <!-- <script>
+      const content = document.querySelector(".content");
+
+      const nhanVien = document.querySelector(".nhanVien");
+      const phongBan = document.querySelector(".phongBan");
+      const tienLuong = document.querySelector(".tienLuong");
+      const khenThuong = document.querySelector(".khenThuong");
+
+      const navNhanVien = document.querySelector(".navNhanVien");
+      const navPhongBan = document.querySelector(".navPhongBan");
+      const navLuong = document.querySelector(".navLuong");
+      const navThuong = document.querySelector(".navThuong");
+
+      navNhanVien.addEventListener("click", function () {
+        nhanVien.classList.add("hide");
+      });
+
+      // navNhanVien.addEventListener('click', function(){
+      //     phongBan.classList.add('hide')
+      //     tienLuong.classList.add('hide')
+      //     khenThuong.classList.add('hide')
+      // })
+
+      // navPhongBan.addEventListener('click', function(){
+      //     phongBan.classList.remove('hide')
+      // })
+    </script> -->
+  </body>
+</html>
